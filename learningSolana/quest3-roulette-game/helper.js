@@ -3,7 +3,7 @@ const web3 = require('@solana/web3.js');
 
 const genRandomNumber = () => {
     const min = 1;      
-    const max = 1;
+    const max = 5;
     return (Math.floor(Math.random() * (max-min)) + min);
 }
 
